@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Titulo</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <h1> git diff 759b5bb2e1fadbc847a77f58c36402b8ff675e28 d45b83e15b80dc58a533b941c1c4d5b1cbeeabd1
+            diff --git a/sample.txt b/sample.txt</h1>
+        <p>Este es un extracto de un comando git diff, que muestra las diferencias entre dos puntos en la historia del repositorio. Vamos a analizarlo paso a paso:
+
+            Encabezado:
+            git diff 759b5bb2e1fadbc847a77f58c36402b8ff675e28 d45b83e15b80dc58a533b941c1c4d5b1cbeeabd1: Este comando compara el estado del archivo en dos commits diferentes. El primer commit es 759b5bb2e1fadbc847a77f58c36402b8ff675e28 y el segundo es d45b83e15b80dc58a533b941c1c4d5b1cbeeabd1.
+            Cambio en sample.txt:
+            diff --git a/sample.txt b/sample.txt: Indica que hay un cambio en el archivo sample.txt.
+            index bbfb4a4..365cd11 100644: Esta línea muestra los índices de versión del archivo antes (bbfb4a4) y después (365cd11) del cambio. El 100644 es un modo de archivo que indica que es un archivo regular y no un directorio o enlace simbólico.
+            Contenido del cambio:
+            --- a/sample.txt: Esto indica el inicio del bloque de código del archivo sample.txt antes del cambio.
+            +++ b/sample.txt: Esto indica el inicio del bloque de código del archivo sample.txt después del cambio.
+            @@ -1,7 +1,4 @@: Esta línea muestra el rango de líneas que se están comparando. En este caso, la versión anterior tenía 7 líneas y la nueva versión tiene 4 líneas.
+            Las líneas que comienzan con - indican líneas eliminadas, mientras que las líneas que comienzan con + indican líneas añadidas.
+            Cambios específicos:
+            En este caso, parece que se eliminaron algunas líneas y se añadió una nueva línea:
+            git rm sample.txt: Se eliminaron las líneas relacionadas con la eliminación y la desindexación del archivo sample.txt.
+            git add sample.txt: Se añadió la línea para agregar sample.txt.
+            git commit -m "mensaje": Se eliminaron las líneas relacionadas con un commit anterior.
+            git config y git config --list --show-origin: Se eliminaron las líneas relacionadas con la configuración de Git.
+            git add sample.txt: Se añadió nuevamente la línea para agregar sample.txt.
+            Fin del cambio:
+            \ No newline at end of file: Esto indica que no hay una nueva línea al final del archivo.
+            En resumen, este git diff muestra los cambios realizados en el archivo sample.txt entre los dos commits especificados. Se eliminaron algunas líneas relacionadas con acciones de Git y se añadió una línea para agregar sample.txt.</p>
+    </body>
+</html>

@@ -2,3 +2,6 @@ git status
 git rm sample.txt
 git rm --cached sample.txt
 git add sample.txt
+git commit -m "mensaje"
+git config
+git config --list --show-origin

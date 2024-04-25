@@ -5,3 +5,6 @@ git add sample.txt
 git commit -m "mensaje"
 git config
 git config --list --show-origin
+git config --global user.name "Jeremy"
+git config --global user.email "Jeremy@gmail.com"
+cat sample.txt

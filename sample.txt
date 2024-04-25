@@ -1,0 +1,4 @@
+git status
+git rm sample.txt
+git rm --cached sample.txt
+git add sample.txt

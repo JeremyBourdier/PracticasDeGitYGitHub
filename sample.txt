@@ -15,7 +15,10 @@ git push
 git fetch
 git merge
 git pull
+<<<<<<< HEAD
 git log --stat
 git show
 git branch nombre
 git commit -am
+=======
+>>>>>>> master

@@ -42,3 +42,5 @@ git merge --abort // anula el merge y devuelve todo a como estaba antes
  ssh-add ~/.shh/id_rsa
 
  git pull origin master
+
+ got log --all --graph --decotate --oneline

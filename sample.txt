@@ -43,7 +43,4 @@ git merge --abort // anula el merge y devuelve todo a como estaba antes
 
  git pull origin master
 
- git log --all --graph --decorate --oneline
- git show-branch --all 
- gitk
- prueba del merge del header y foother a master
+ got log --all --graph --decotate --oneline

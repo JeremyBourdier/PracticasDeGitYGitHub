@@ -45,4 +45,5 @@ git merge --abort // anula el merge y devuelve todo a como estaba antes
 
  got log --all --graph --decotate --oneline
  Prueba header
- prueba del footer
+ Prueba del footer
+ vi sample.txt
